@@ -1,4 +1,4 @@
-$('form#ContactForm').validate({
+$('form#contact_form').validate({
 
   messages: { },
 
@@ -6,7 +6,7 @@ $('form#ContactForm').validate({
 
     $.ajax({
 
-      url: "//formspree.io/steveriedo@hotmail.com",
+      url: "//formspree.io/hello@reecreate.com",
 
       method: "POST",
 
@@ -16,7 +16,7 @@ $('form#ContactForm').validate({
 
       success: function(data) {
 
-          $("form#ContactForm :input").prop("disabled", true);
+          $("form#contact_form :input").prop("disabled", true);
 
           $('#thanks').show();
 
