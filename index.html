@@ -290,15 +290,17 @@ href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300"
         <div class="col-md-8 col-md-offset-2">
 
 		
-<!-- 		<form action="https://formspree.io/steveriedo@hotmail.com"
+ <!-- 		<form action="https://formspree.io/steveriedo@hotmail.com"
       method="POST">
     <input type="text" name="name">
     <input type="email" name="_replyto">
+	<textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required=""></textarea>
     <input type="submit" value="Send"> 
 </form>
--->
+ -->
 	
-	<form name="sentMessage" id="contactForm" novalidate="" method='POST'>
+	<form name="sentMessage" id="contactForm" action="https://formspree.io/steveriedo@hotmail.com"
+      method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group"> <input name="name" id="name"
@@ -352,7 +354,6 @@ href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300"
     <script type="text/javascript" src="js/nivo-lightbox.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
     <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact_me.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
